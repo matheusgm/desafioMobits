@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp">
+
+    <TextView
+        android:id="@+id/txt_saldo_atual_deposito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saldo_atual"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt_saldo_deposito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30.30"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/editText_valorDeposito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="60dp"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_depositar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/depositar" />
+
+</LinearLayout>

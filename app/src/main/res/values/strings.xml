@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DesafioMobits</string>
+    <string name="desafio_mobits">Desafio Mobits</string>
+    <string name="conta_corrente">Conta Corrente</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="ver_saldo">Ver Saldo</string>
+    <string name="extrato">Extrato</string>
+    <string name="saque">Saque</string>
+    <string name="deposito">Depósito</string>
+    <string name="transferencia">Transferencia</string>
+    <string name="solicitar_visita_do_gerente">Solicitar\n visita do\n gerente</string>
+    <string name="trocar_de_usuario">Trocar\n de\n usuário</string>
+    <string name="saldo_oculto">Saldo Oculto</string>
+    <string name="data">Data</string>
+    <string name="horario">Horario</string>
+    <string name="descricao">Descrição</string>
+    <string name="valor">Valor (R$)</string>
+    <string name="sacar">Sacar</string>
+    <string name="saldo_atual">Saldo Atual (R$)</string>
+    <string name="perfil_normal">Normal</string>
+    <string name="perfil_vip">Vip</string>
+    <string name="depositar">Depositar</string>
+    <string name="transferir">Transferir</string>
+    <string name="conta_destinatario">Conta Destinatario</string>
+</resources>

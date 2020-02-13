@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp">
+
+        <TextView
+            android:id="@+id/txt_conta_destinatario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/conta_destinatario" />
+
+        <EditText
+            android:id="@+id/editText_conta_transferencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="5"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="60dp">
+
+        <TextView
+            android:id="@+id/txt_valor_transferencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/valor" />
+
+        <EditText
+            android:id="@+id/editText_valor_transferencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_transferir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transferir"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"/>
+</LinearLayout>

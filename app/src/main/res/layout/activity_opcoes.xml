@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="60dp"
+    android:layout_marginBottom="60dp">
+
+    <TextView
+        android:id="@+id/txt_saldo_oculto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saldo_oculto"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_saldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ver_saldo"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_extrato"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/extrato"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/btn_saque"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/saque"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/btn_deposito"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/deposito"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_transferencia"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/transferencia"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/btn_trocar_usuario"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/trocar_de_usuario"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/btn_visita_gerente"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/solicitar_visita_do_gerente"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:visibility="invisible"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
